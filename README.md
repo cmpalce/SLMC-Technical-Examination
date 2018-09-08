@@ -55,3 +55,6 @@ cd /home/vagrant/code/backend
 php artisan migrate:fresh
 php artisan users:fetch
 ```
+
+### Mockup
+![Mockup] (https://raw.githubusercontent.com/cmpalce/SLMC-Technical-Examination/master/mockup/mockup.png)
