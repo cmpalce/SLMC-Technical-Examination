@@ -57,4 +57,7 @@ php artisan users:fetch
 ```
 
 ### Mockup
-![Mockup] (https://raw.githubusercontent.com/cmpalce/SLMC-Technical-Examination/master/mockup/mockup.png)
+![Mockup](https://raw.githubusercontent.com/cmpalce/SLMC-Technical-Examination/master/mockup/mockup.png)
+
+### Database
+![Database](https://github.com/cmpalce/SLMC-Technical-Examination/blob/master/database/slmc.png)
