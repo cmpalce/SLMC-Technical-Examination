@@ -17,8 +17,9 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('username');
+            $table->string('phone');
+            $table->string('website');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->integer('addressId');
             $table->integer('companyId');
         });
