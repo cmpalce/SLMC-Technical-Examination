@@ -18,7 +18,7 @@ class FetchUsersTest extends TestCase
     /**
      * @test
      */
-    public function fetch_users()
+    public function fetch_users_from_api_and_store_in_db()
     {
         $geo = new stdClass;
         $geo->lat = 12.2131;
