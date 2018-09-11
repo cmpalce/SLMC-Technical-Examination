@@ -14,7 +14,7 @@ git clone git@github.com:cmpalce/SLMC-Technical-Examination.git
 
 #### Install using Vagrant
 ```
-cd SLMC-Technical-Examination
+cd SLMC-Technical-Examination/Homestead
 vagrant up
 ```
 
@@ -24,9 +24,14 @@ The server domain is 192.168.11.11.
 Verify that backend was setup by checking http://192.168.11.11/api/users in the browser.
 You should see the list of users that was fetched from https://jsonplaceholder.typicode.com/users.
 
-### Setup frontend
+#### Check frontend
+Verify that backend was setup by checking http://192.168.11.11/frontend in the browser.
+You should see the mockup dashboard as shown below.
 
-Frontend is currently not setup for production. To check the frontend, you have to run
+### Setup frontend for development
+
+Frontend is setup for production as specified in "Check frontend" section. 
+However, to perform the frontend development, you have to run
 the development server. To do so, you have to enter Homestead by running
 "vagrant ssh" in the Homestead folder. The commands below assumes you are inside Homestead:
 

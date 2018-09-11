@@ -29,6 +29,18 @@ block="server {
 
     charset utf-8;
 
+    location /frontend {
+        alias /home/vagrant/code/frontend/dist/;
+    }
+
+    location /css {
+        alias /home/vagrant/code/frontend/dist/css/;
+    }
+
+    location /js {
+        alias /home/vagrant/code/frontend/dist/js/;
+    }
+
     location / {
         try_files \$uri \$uri/ /index.php?\$query_string;
     }
